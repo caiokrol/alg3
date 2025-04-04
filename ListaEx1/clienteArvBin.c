@@ -10,23 +10,6 @@ typedef int ItemArv;
 #include "arvBin.h"
 
 
-struct Nodo *busca_prof (Nodo *atual, int elemento) {
-    if(atual == NULL){
-        return NULL;
-    }
-    
-    if(atual->item == elemento){
-        return atual;
-    }
-
-    struct no *result;
-    result = busca_prof(atual->esq, elemento);
-    if(result){
-        return result;
-    }
-    result = busca_prof(atual->dir, elemento);
-    return result;
-}
 
 int somaChave(Nodo *atual) {
     if (atual == NULL) {
@@ -152,19 +135,47 @@ void ordenaPeloMaior(Nodo *atual) {
 /* ----------------------------------------------------- */
 /* Programa: cria uma árvore binária e imprime a árvore
 */
-int main(int argc, char *argv[]){
-  ArvBin arv;
-  ItemArv v;
-  
-  criaArv( &arv );
-  read( v );
-  while( !eq( v, FIM )){
-    arv= insereArv( v, arv );
-    read( v );
-  }
-  printf( "\nArvore\n" );
-  escreveArv( arv );
+int main(int argc, char *argv[]) {
+    ArvBin arv;
+    ItemArv v;
+    
+    // Criar árvore vazia
+    criaArv(&arv);
+    
+    // Ler e inserir valores até encontrar FIM
+    read(v);
+    while (!eq(v, FIM)) {
+        arv = insereArv(v, arv);
+        read(v);
+    }
+    
+    // Exibir árvore original
+    printf("\nÁrvore original:\n");
+    escreveArv(arv);
+    
+    // Testar a função paiMaior
+    paiMaior(arv);
+    printf("\nÁrvore após paiMaior:\n");
+    escreveArv(arv);
 
-  freeArv( arv );
-  return 0;
+    // Testar a função dobraArvore
+    arv = dobraArvore(arv);
+    printf("\nÁrvore após dobraArvore:\n");
+    escreveArv(arv);
+
+    // Testar a função maiorNaRaiz
+    maiorNaRaiz(arv);
+    printf("\nÁrvore após maiorNaRaiz:\n");
+    escreveArv(arv);
+
+    // Testar a função ordenaPeloMaior
+    ordenaPeloMaior(arv);
+    printf("\nÁrvore após ordenaPeloMaior:\n");
+    escreveArv(arv);
+
+    // Liberar memória
+    freeArv(arv);
+
+    return 0;
 }
+
