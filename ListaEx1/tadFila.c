@@ -4,8 +4,8 @@ IMPLEMENTAÇÃO: TAD Fila
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef void *ItemFila;
-#include "itemApontador.h"
+typedef float ItemFila;
+#include "itemFloat.h"
 #include "fila.h"
 
 /* ----------------------------------------------------- */
@@ -69,15 +69,5 @@ void removeFila( Fila *fila, ItemFila *v){
   }
 }
 
-/* ----------------------------------------------------- 
-   Remove todos os itens da fila
-*/
-void freeFila( Fila fila ){
-  ItemFila v;
-  
-  while( !filaVazia( fila ))
-    removeFila( &fila, &v );
-}
-  
 
 

@@ -15,4 +15,3 @@ void criaFila( Fila* );
 int filaVazia( Fila );
 void insereFila( ItemFila, Fila*);
 void removeFila( Fila*, ItemFila* );
-void freeFila( Fila );
