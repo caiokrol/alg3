@@ -3,7 +3,7 @@
 #include <time.h>
 #include <string.h>
 
-#define NUM_REGISTROS 20000000
+//#define NUM_REGISTROS 10000
 #define MAX_MODELOS 1000
 #define MAX_LINHA 256
 
@@ -55,6 +55,16 @@ int main() {
     const char *cores[] = {"Preto", "Branco", "Prata", "Vermelho", "Azul", "Cinza", "Verde"};
     int num_cores = sizeof(cores) / sizeof(cores[0]);
 
+        // --- ALTERAÇÃO PRINCIPAL AQUI ---
+    int num_registros_desejados;
+    printf("Digite o número de registros desejados: (Max 20.000.000)\n");
+    // Valida se a entrada é um número inteiro positivo
+    if (scanf("%d", &num_registros_desejados) != 1 || num_registros_desejados <= 0 || num_registros_desejados > 20000000) {
+        fprintf(stderr, "Erro: Entrada inválida. Por favor, insira um número válido.\n");
+        return 1;
+    }
+    // --- FIM DA ALTERAÇÃO ---
+
     srand(time(NULL));
 
     int num_modelos = carregar_modelos("modelos_anos.txt", automoveis);
@@ -64,19 +74,19 @@ int main() {
     }
 
     // Aloca e gera RENAVAMs únicos incrementais
-    unsigned long long *renavams = malloc(sizeof(unsigned long long) * NUM_REGISTROS);
+    unsigned long long *renavams = malloc(sizeof(unsigned long long) * num_registros_desejados);
     if (!renavams) {
         perror("Erro alocando vetor de RENAVAMs");
         return 1;
     }
 
     unsigned long long base = 10000000000ULL;
-    for (int i = 0; i < NUM_REGISTROS; i++) {
+    for (int i = 0; i < num_registros_desejados; i++) {
         renavams[i] = base + i;
     }
 
     // Embaralha os RENAVAMs para parecerem aleatórios
-    embaralhar(renavams, NUM_REGISTROS);
+    embaralhar(renavams, num_registros_desejados);
 
     arquivo_saida = fopen("registros.txt", "w");
     if (!arquivo_saida) {
@@ -85,9 +95,9 @@ int main() {
         return 1;
     }
 
-    printf("Gerando %d registros de automóveis com RENAVAMs únicos...\n", NUM_REGISTROS);
+    printf("Gerando %d registros de automóveis com RENAVAMs únicos...\n", num_registros_desejados);
 
-    for (int i = 0; i < NUM_REGISTROS; i++) {
+    for (int i = 0; i < num_registros_desejados; i++) {
         int modelo_idx = rand() % num_modelos;
         Automovel carro = automoveis[modelo_idx];
         int ano = gerar_ano(carro.ano_inicio, carro.ano_fim);
