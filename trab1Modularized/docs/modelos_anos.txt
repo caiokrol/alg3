@@ -1,0 +1,844 @@
+Abarth 500; 2014; 2015
+Abarth Fastback; 2023; 2026
+Abarth Pulse; 2022; 2026
+Adamo GT; 1970; 1990
+Adamo GT-2; 1974; 1990
+Adamo CRX; 1981; 1990
+Agrale Marruá; 2004; 2026
+Alfa Romeo 145; 1996; 2001
+Alfa Romeo 147; 2002; 2006
+Alfa Romeo 155; 1993; 1998
+Alfa Romeo 156; 1999; 2005
+Alfa Romeo 164; 1990; 1997
+Alfa Romeo 166; 1999; 2005
+Alfa Romeo 2300; 1974; 1986
+Alfa Romeo Spider; 1996; 2001
+Alfa Romeo GTV; 1996; 2001
+FNM Onça; 1966; 1967
+FNM JK; 1960; 1973
+Alpine A108; 1962; 1966
+Asia Rocsta; 1993; 1995
+Asia Towner; 1992; 1999
+Asia Topic; 1993; 1999
+Aston Martin DB9; 2005; 2016
+Aston Martin Vantage; 2006; 2026
+Audi 80; 1992; 1996
+Audi 100; 1991; 1997
+Audi A1; 2011; 2026
+Audi A3; 1996; 2026
+Audi A3 Sedan; 2014; 2026
+Audi A4; 1995; 2026
+Audi A4 Avant; 1996; 2026
+Audi A5; 2009; 2026
+Audi A6; 1995; 2026
+Audi A7; 2011; 2026
+Audi A8; 1995; 2026
+Audi Q2; 2018; 2026
+Audi Q3; 2012; 2026
+Audi Q5; 2009; 2026
+Audi Q7; 2006; 2026
+Audi Q8; 2019; 2026
+Audi R8; 2007; 2026
+Audi RS2; 1994; 1995
+Audi RS3; 2013; 2026
+Audi RS4; 2001; 2026
+Audi RS5; 2011; 2026
+Audi RS6; 2003; 2026
+Audi RS7; 2014; 2026
+Audi RS Q3; 2014; 2026
+Audi RS Q8; 2020; 2026
+Audi S3; 1999; 2026
+Audi S4; 1998; 2026
+Audi S6; 1995; 2026
+Audi TT; 1999; 2023
+Audi e-tron; 2019; 2026
+Bentley Continental GT; 2004; 2026
+BMW 116i; 2012; 2015
+BMW 118i; 2010; 2021
+BMW 120i; 2005; 2026
+BMW 125i; 2013; 2016
+BMW 130i; 2006; 2012
+BMW 135i; 2009; 2013
+BMW M135i; 2013; 2026
+BMW M140i; 2017; 2019
+BMW 218i; 2016; 2018
+BMW 220i; 2022; 2026
+BMW 225i; 2015; 2017
+BMW 316i; 2013; 2015
+BMW 318i; 1992; 2012
+BMW 320i; 1991; 2026
+BMW 323i; 1997; 2000
+BMW 325i; 1991; 2013
+BMW 328i; 1996; 2016
+BMW 330i; 2001; 2026
+BMW 335i; 2007; 2015
+BMW M3; 1994; 2026
+BMW 420i; 2014; 2018
+BMW 428i; 2014; 2016
+BMW 430i; 2017; 2026
+BMW 435i; 2014; 2016
+BMW M4; 2014; 2026
+BMW 520i; 2014; 2016
+BMW 525i; 1992; 2010
+BMW 528i; 1996; 2017
+BMW 530i; 2001; 2026
+BMW 535i; 2008; 2016
+BMW 540i; 1993; 2020
+BMW 550i; 2006; 2013
+BMW M5; 1995; 2026
+BMW 640i; 2012; 2018
+BMW 650i; 2006; 2015
+BMW M6; 2006; 2018
+BMW 740i; 1993; 2016
+BMW 750i; 1991; 2020
+BMW 760i; 2003; 2015
+BMW 840i; 1994; 2020
+BMW 850i; 1991; 1997
+BMW M8; 2020; 2026
+BMW i3; 2014; 2022
+BMW i4; 2022; 2026
+BMW i8; 2014; 2020
+BMW iX; 2021; 2026
+BMW iX3; 2021; 2026
+BMW X1; 2010; 2026
+BMW X2; 2018; 2026
+BMW X3; 2004; 2026
+BMW X4; 2014; 2026
+BMW X5; 2001; 2026
+BMW X6; 2008; 2026
+BMW X7; 2019; 2026
+BMW Z3; 1996; 2002
+BMW Z4; 2004; 2026
+BYD Dolphin; 2023; 2026
+BYD Dolphin Mini; 2024; 2026
+BYD Han; 2022; 2026
+BYD Seal; 2023; 2026
+BYD Song Plus; 2022; 2026
+BYD Tan; 2022; 2026
+BYD Yuan Plus; 2023; 2026
+Cadillac Escalade; 2007; 2010
+CAOAChery Arrizo 5; 2018; 2022
+CAOAChery Arrizo 6; 2020; 2026
+CAOAChery Celer; 2013; 2018
+CAOAChery Cielo; 2010; 2012
+CAOAChery Face; 2010; 2015
+CAOAChery iCar; 2022; 2026
+CAOAChery QQ; 2011; 2019
+CAOAChery Tiggo 2; 2018; 2022
+CAOAChery Tiggo 3x; 2021; 2022
+CAOAChery Tiggo 5x; 2018; 2026
+CAOAChery Tiggo 7; 2019; 2026
+CAOAChery Tiggo 8; 2020; 2026
+Chevrolet Agile; 2009; 2016
+Chevrolet Astra; 1995; 2011
+Chevrolet Blazer (Antiga); 1995; 2011
+Chevrolet Blazer (Nova); 2024; 2026
+Chevrolet Bolt; 2019; 2026
+Chevrolet Bonanza; 1989; 1994
+Chevrolet Brasil; 1958; 1963
+Chevrolet C-10; 1974; 1985
+Chevrolet C-14; 1964; 1973
+Chevrolet Calibra; 1994; 1996
+Chevrolet Camaro; 2010; 2024
+Chevrolet Captiva; 2008; 2017
+Chevrolet Caravan; 1975; 1992
+Chevrolet Celta; 2000; 2015
+Chevrolet Chevette; 1973; 1993
+Chevrolet Chevy 500; 1983; 1995
+Chevrolet Classic; 2002; 2016
+Chevrolet Cobalt; 2011; 2020
+Chevrolet Corsa Hatch; 1994; 2012
+Chevrolet Corsa Sedan; 1995; 2012
+Chevrolet Corsa Wagon; 1997; 2002
+Chevrolet Corsa Pick-up; 1995; 2003
+Chevrolet Corvette; 1994; 2021
+Chevrolet Cruze; 2011; 2023
+Chevrolet Cruze Sport6; 2012; 2023
+Chevrolet D-10; 1979; 1985
+Chevrolet D-20; 1985; 1996
+Chevrolet Equinox; 2017; 2026
+Chevrolet HHR; 2008; 2009
+Chevrolet Ipanema; 1989; 1997
+Chevrolet Joy; 2019; 2022
+Chevrolet Joy Plus; 2019; 2022
+Chevrolet Kadett; 1989; 1998
+Chevrolet Lumina; 1990; 2001
+Chevrolet Malibu; 2010; 2013
+Chevrolet Marajó; 1980; 1989
+Chevrolet Meriva; 2002; 2012
+Chevrolet Montana (Antiga); 2003; 2021
+Chevrolet Montana (Nova); 2023; 2026
+Chevrolet Monza; 1982; 1996
+Chevrolet Omega (Nacional); 1992; 1998
+Chevrolet Omega (Australiano); 1999; 2011
+Chevrolet Onix; 2012; 2026
+Chevrolet Onix Plus; 2019; 2026
+Chevrolet Opala; 1968; 1992
+Chevrolet Prisma; 2006; 2019
+Chevrolet S10; 1995; 2026
+Chevrolet Silverado; 1997; 2014
+Chevrolet Sonic; 2012; 2014
+Chevrolet Space Van; 1997; 1998
+Chevrolet Spin; 2012; 2026
+Chevrolet Suprema; 1993; 1998
+Chevrolet Tigra; 1998; 1999
+Chevrolet Tracker; 2001; 2026
+Chevrolet Trailblazer; 2012; 2026
+Chevrolet Traverse; 2017; 2020
+Chevrolet Vectra; 1993; 2011
+Chevrolet Vectra GT; 2007; 2011
+Chevrolet Veraneio; 1964; 1994
+Chevrolet Zafira; 2001; 2012
+Chrysler 300C; 2006; 2019
+Chrysler Caravan; 1993; 2016
+Chrysler Grand Caravan; 1993; 2016
+Chrysler PT Cruiser; 2001; 2010
+Chrysler Stratus; 1996; 2001
+Citroën Aircross; 2010; 2021
+Citroën Ami; 2023; 2026
+Citroën Ax; 1993; 1997
+Citroën Berlingo; 1998; 2007
+Citroën C3; 2003; 2026
+Citroën C3 Picasso; 2011; 2015
+Citroën C4 Cactus; 2018; 2026
+Citroën C4 Hatch; 2009; 2014
+Citroën C4 Lounge; 2013; 2020
+Citroën C4 Pallas; 2007; 2013
+Citroën C4 Picasso; 2008; 2019
+Citroën C5; 2001; 2012
+Citroën C6; 2006; 2008
+Citroën C8; 2003; 2005
+Citroën DS3; 2012; 2016
+Citroën DS4; 2013; 2016
+Citroën DS5; 2013; 2016
+Citroën Evasion; 1995; 2001
+Citroën Jumper; 2005; 2026
+Citroën Jumpy; 2017; 2026
+Citroën Xantia; 1994; 2001
+Citroën XM; 1992; 2000
+Citroën Xsara; 1998; 2004
+Citroën Xsara Picasso; 2001; 2012
+Citroën ZX; 1993; 1998
+Daewoo Espero; 1994; 1997
+Daewoo Lanos; 1997; 2001
+Daewoo Leganza; 1997; 2001
+Daewoo Nubira; 1997; 2001
+Daewoo Prince; 1994; 1997
+Daewoo Super Salon; 1994; 1996
+Daihatsu Charade; 1993; 1995
+Daihatsu Cuore; 1993; 1999
+Daihatsu Feroza; 1993; 1997
+Daihatsu Terios; 1997; 2000
+DKW-Vemag Belcar; 1958; 1967
+DKW-Vemag Candango; 1958; 1963
+DKW-Vemag Fissore; 1964; 1967
+DKW-Vemag Vemaguet; 1956; 1967
+Dodge Challenger; 2010; 2014
+Dodge Charger; 2007; 2016
+Dodge Dakota; 1998; 2012
+Dodge Durango; 1998; 2019
+Dodge Journey; 2008; 2020
+Dodge Polara; 1973; 1981
+Dodge Ram 1500; 2005; 2026
+Dodge Ram 2500; 2005; 2026
+Dodge Ram 3500; 2022; 2026
+Dodge Viper; 1998; 2010
+Effa M100; 2008; 2012
+Effa Picape; 2011; 2015
+Effa Van; 2008; 2012
+Engesa EE-4; 1985; 1985
+Ferrari 355; 1995; 1999
+Ferrari 360; 2000; 2004
+Ferrari 430; 2005; 2009
+Ferrari 458; 2010; 2015
+Ferrari 488; 2016; 2019
+Ferrari California; 2009; 2017
+Ferrari F8; 2020; 2023
+Ferrari Portofino; 2018; 2026
+Ferrari Roma; 2021; 2026
+Ferrari SF90; 2021; 2026
+Fiat 147; 1976; 1986
+Fiat 500; 2009; 2017
+Fiat Argo; 2017; 2026
+Fiat Brava; 1999; 2003
+Fiat Bravo; 2010; 2016
+Fiat Cinquecento; 1993; 1995
+Fiat Coupé; 1995; 1996
+Fiat Cronos; 2018; 2026
+Fiat Doblò; 2001; 2021
+Fiat Ducato; 1998; 2026
+Fiat Elba; 1986; 1996
+Fiat Fastback; 2022; 2026
+Fiat Fiorino; 1988; 2026
+Fiat Freemont; 2011; 2016
+Fiat Grand Siena; 2012; 2021
+Fiat Idea; 2005; 2016
+Fiat Linea; 2008; 2016
+Fiat Marea; 1998; 2007
+Fiat Marea Weekend; 1998; 2007
+Fiat Mobi; 2016; 2026
+Fiat Oggi; 1983; 1985
+Fiat Palio; 1996; 2017
+Fiat Palio Adventure; 1999; 2020
+Fiat Palio Weekend; 1997; 2020
+Fiat Panorama; 1980; 1986
+Fiat Prêmio; 1985; 1994
+Fiat Pulse; 2021; 2026
+Fiat Punto; 2007; 2017
+Fiat Scudo; 2022; 2026
+Fiat Siena; 1997; 2016
+Fiat Spazio; 1982; 1987
+Fiat Stilo; 2002; 2010
+Fiat Strada; 1998; 2026
+Fiat Tempra; 1991; 1998
+Fiat Tipo; 1993; 1997
+Fiat Titano; 2024; 2026
+Fiat Toro; 2016; 2026
+Fiat Uno; 1984; 2021
+Ford Belina; 1970; 1991
+Ford Bronco; 1997; 2026
+Ford Corcel; 1968; 1986
+Ford Courier; 1997; 2013
+Ford Crown Victoria; 1992; 1997
+Ford Del Rey; 1981; 1991
+Ford EcoSport; 2003; 2021
+Ford Edge; 2008; 2021
+Ford Escort; 1983; 2003
+Ford Escort XR3; 1984; 1996
+Ford Explorer; 1992; 2005
+Ford F-100; 1957; 1985
+Ford F-1000; 1979; 1998
+Ford F-150; 2023; 2026
+Ford F-250; 1998; 2011
+Ford F-75; 1960; 1983
+Ford Fiesta; 1995; 2019
+Ford Fiesta Sedan; 2001; 2019
+Ford Focus; 2000; 2019
+Ford Focus Sedan; 2000; 2019
+Ford Fusion; 2006; 2019
+Ford Galaxie; 1967; 1983
+Ford Galaxie Landau; 1971; 1983
+Ford GT; 2005; 2018
+Ford Jeep; 1957; 1983
+Ford Ka; 1997; 2021
+Ford Ka Sedan; 2014; 2021
+Ford Maverick (Antigo); 1973; 1979
+Ford Maverick (Nova); 2022; 2026
+Ford Mondeo; 1995; 2006
+Ford Mustang; 1994; 2026
+Ford Pampa; 1982; 1997
+Ford Ranger; 1994; 2026
+Ford Royale; 1992; 1996
+Ford Taurus; 1994; 1997
+Ford Territory; 2020; 2026
+Ford Verona; 1989; 1996
+Ford Versailles; 1991; 1996
+FSO Polonez; 1990; 1993
+Geely EC7; 2014; 2016
+Geely GC2; 2014; 2016
+GMC Jimmy; 1992; 2001
+GMC Yukon; 1992; 1997
+Gurgel BR-800; 1988; 1991
+Gurgel Carajás; 1984; 1994
+Gurgel Itaipu; 1975; 1975
+Gurgel Supermini; 1992; 1995
+Gurgel X-12; 1975; 1993
+GWM Haval H6; 2023; 2026
+GWM Ora 03; 2023; 2026
+Haval H6; 2023; 2026
+Haval H6 GT; 2023; 2026
+Haval H6 PHEV; 2023; 2026
+Honda Accord; 1992; 2026
+Honda City; 2009; 2026
+Honda City Hatch; 2021; 2026
+Honda Civic; 1992; 2026
+Honda Civic Si; 2007; 2021
+Honda Civic Type R; 2018; 2026
+Honda CR-V; 1997; 2026
+Honda CRX; 1992; 1995
+Honda Fit; 2003; 2021
+Honda HR-V; 1999; 2026
+Honda Legend; 1992; 1998
+Honda NSX; 1991; 2005
+Honda Odyssey; 1995; 2009
+Honda Passport; 1994; 2002
+Honda Prelude; 1992; 2001
+Honda S2000; 2000; 2009
+Honda WR-V; 2017; 2022
+Hummer H1; 1992; 2006
+Hummer H2; 2003; 2009
+Hummer H3; 2005; 2010
+Hyundai Accent; 1994; 2001
+Hyundai Atos; 2000; 2004
+Hyundai Azera; 2007; 2020
+Hyundai Coupe; 1997; 2002
+Hyundai Creta; 2017; 2026
+Hyundai Elantra; 1992; 2020
+Hyundai Equus; 2012; 2013
+Hyundai Excel; 1992; 1995
+Hyundai Genesis; 2011; 2013
+Hyundai Grand Santa Fe; 2013; 2018
+Hyundai H100; 1994; 2004
+Hyundai HB20; 2012; 2026
+Hyundai HB20S; 2013; 2026
+Hyundai HB20X; 2013; 2022
+Hyundai i30; 2009; 2019
+Hyundai i30 CW; 2010; 2013
+Hyundai Ioniq; 2019; 2023
+Hyundai ix35; 2010; 2022
+Hyundai Kona; 2023; 2026
+Hyundai Matrix; 2002; 2004
+Hyundai Palisade; 2022; 2026
+Hyundai Santa Fe; 2001; 2026
+Hyundai Scoupe; 1991; 1996
+Hyundai Sonata; 1992; 2014
+Hyundai Terracan; 2003; 2006
+Hyundai Tiburon; 1997; 2008
+Hyundai Trajet; 2000; 2001
+Hyundai Tucson; 2005; 2018
+Hyundai Veloster; 2011; 2014
+Hyundai Vera Cruz; 2007; 2013
+JAC J2; 2012; 2016
+JAC J3; 2011; 2017
+JAC J3 Turin; 2011; 2017
+JAC J4; 2018; 2020
+JAC J5; 2012; 2016
+JAC J6; 2011; 2016
+JAC T40; 2017; 2022
+JAC T5; 2016; 2019
+JAC T50; 2019; 2022
+JAC T6; 2015; 2019
+JAC T60; 2019; 2021
+JAC T8; 2013; 2019
+JAC T80; 2018; 2020
+JAC V260; 2018; 2020
+JAC E-JS1; 2021; 2026
+JAC E-JS4; 2021; 2026
+Jaguar E-Pace; 2018; 2026
+Jaguar F-Pace; 2016; 2026
+Jaguar F-Type; 2013; 2026
+Jaguar I-Pace; 2018; 2026
+Jaguar S-Type; 2000; 2008
+Jaguar X-Type; 2002; 2009
+Jaguar XE; 2015; 2021
+Jaguar XF; 2009; 2026
+Jaguar XJ; 1992; 2019
+Jaguar XK; 1997; 2014
+Jeep Cherokee; 1994; 2019
+Jeep Commander; 2006; 2026
+Jeep Compass; 2012; 2026
+Jeep Gladiator; 2022; 2026
+Jeep Grand Cherokee; 1994; 2026
+Jeep Patriot; 2008; 2014
+Jeep Renegade; 2015; 2026
+Jeep Wagoneer; 1993; 1994
+Jeep Wrangler; 1997; 2026
+Jipe Willys; 1954; 1983
+Kia Besta; 1993; 2005
+Kia Bongo; 1993; 2026
+Kia Cadenza; 2011; 2018
+Kia Carens; 2000; 2013
+Kia Carnival; 1999; 2026
+Kia Cerato; 1996; 2026
+Kia Clarus; 1996; 2000
+Kia Magentis; 2001; 2010
+Kia Mohave; 2009; 2021
+Kia Niro; 2022; 2026
+Kia Opirus; 2004; 2009
+Kia Optima; 2012; 2016
+Kia Picanto; 2006; 2020
+Kia Quoris; 2015; 2016
+Kia Rio; 2020; 2021
+Kia Sephia; 1993; 2001
+Kia Seltos; 2020; 2021
+Kia Sorento; 2003; 2026
+Kia Soul; 2009; 2021
+Kia Sportage; 1995; 2026
+Kia Stinger; 2018; 2026
+Kia Stonic; 2021; 2026
+Lada Laika; 1990; 1995
+Lada Niva; 1990; 1997
+Lada Samara; 1990; 1995
+Lamborghini Aventador; 2012; 2022
+Lamborghini Countach; 1974; 1990
+Lamborghini Diablo; 1994; 2001
+Lamborghini Gallardo; 2004; 2013
+Lamborghini Huracán; 2014; 2026
+Lamborghini Murciélago; 2002; 2010
+Lamborghini Urus; 2018; 2026
+Lancia Kappa; 1995; 1997
+Lancia Thema; 1992; 1994
+Land Rover Defender; 1992; 2026
+Land Rover Discovery; 1992; 2026
+Land Rover Discovery Sport; 2015; 2026
+Land Rover Freelander; 1998; 2015
+Land Rover Range Rover; 1992; 2026
+Land Rover Range Rover Evoque; 2011; 2026
+Land Rover Range Rover Sport; 2006; 2026
+Land Rover Range Rover Velar; 2017; 2026
+Lexus CT200h; 2013; 2020
+Lexus ES300; 1993; 2003
+Lexus ES350; 2007; 2018
+Lexus IS250; 2006; 2012
+Lexus IS300; 2001; 2005
+Lexus LS400; 1992; 2000
+Lexus LS430; 2001; 2006
+Lexus NX200t; 2015; 2017
+Lexus NX300h; 2018; 2026
+Lexus RX300; 2000; 2003
+Lexus RX350; 2009; 2022
+Lexus RX450h; 2012; 2022
+Lexus UX250h; 2019; 2026
+Lifan 320; 2010; 2014
+Lifan 530; 2014; 2018
+Lifan 620; 2010; 2016
+Lifan Foison; 2013; 2019
+Lifan X60; 2013; 2018
+Lifan X80; 2018; 2019
+Lincoln Navigator; 1998; 2005
+Lobini H1; 2006; 2012
+Lotus Elise; 1996; 2021
+Maserati Ghibli; 2014; 2026
+Maserati GranTurismo; 2008; 2019
+Maserati Levante; 2017; 2026
+Maserati Quattroporte; 2005; 2026
+Mazda 323; 1993; 1999
+Mazda 626; 1992; 2000
+Mazda 929; 1992; 1995
+Mazda B2500; 1998; 2000
+Mazda Miata; 1992; 1995
+Mazda MPV; 1993; 1999
+Mazda MX-3; 1993; 1997
+Mazda MX-5; 1992; 2000
+Mazda Protege; 1993; 2000
+Mazda RX-7; 1992; 1995
+McLaren 570S; 2016; 2021
+McLaren 720S; 2018; 2023
+McLaren Artura; 2022; 2026
+McLaren Senna; 2019; 2019
+Mercedes-Benz 190E; 1991; 1993
+Mercedes-Benz A200; 2013; 2026
+Mercedes-Benz A250; 2014; 2022
+Mercedes-Benz A35 AMG; 2020; 2026
+Mercedes-Benz A45 AMG; 2014; 2026
+Mercedes-Benz B200; 2009; 2021
+Mercedes-Benz C180; 1994; 2022
+Mercedes-Benz C200; 2001; 2026
+Mercedes-Benz C250; 2011; 2018
+Mercedes-Benz C280; 1994; 2009
+Mercedes-Benz C300; 2018; 2026
+Mercedes-Benz C320; 2001; 2005
+Mercedes-Benz C43 AMG; 2017; 2026
+Mercedes-Benz C63 AMG; 2008; 2026
+Mercedes-Benz CL; 1994; 2014
+Mercedes-Benz CLA200; 2013; 2026
+Mercedes-Benz CLA250; 2014; 2022
+Mercedes-Benz CLA45 AMG; 2014; 2026
+Mercedes-Benz CLC200; 2009; 2010
+Mercedes-Benz CLK; 1998; 2009
+Mercedes-Benz CLS; 2005; 2020
+Mercedes-Benz E250; 2010; 2016
+Mercedes-Benz E320; 1993; 2009
+Mercedes-Benz E350; 2006; 2016
+Mercedes-Benz E400; 2015; 2018
+Mercedes-Benz E500; 2004; 2012
+Mercedes-Benz E63 AMG; 2007; 2020
+Mercedes-Benz G500; 2003; 2018
+Mercedes-Benz G63 AMG; 2013; 2026
+Mercedes-Benz GL; 2006; 2015
+Mercedes-Benz GLA200; 2015; 2026
+Mercedes-Benz GLA250; 2015; 2021
+Mercedes-Benz GLA45 AMG; 2015; 2021
+Mercedes-Benz GLB200; 2020; 2026
+Mercedes-Benz GLC250; 2016; 2019
+Mercedes-Benz GLC300; 2019; 2026
+Mercedes-Benz GLC43 AMG; 2017; 2026
+Mercedes-Benz GLE400; 2016; 2018
+Mercedes-Benz GLE450; 2019; 2026
+Mercedes-Benz GLS; 2016; 2026
+Mercedes-Benz ML320; 1998; 2005
+Mercedes-Benz ML350; 2006; 2015
+Mercedes-Benz S500; 1993; 2017
+Mercedes-Benz S600; 1993; 2013
+Mercedes-Benz S63 AMG; 2008; 2020
+Mercedes-Benz SL; 1992; 2020
+Mercedes-Benz SLK; 1997; 2016
+Mercedes-Benz SLS AMG; 2010; 2013
+Mercedes-Benz Sprinter; 1997; 2026
+Mercedes-Benz Vito; 2015; 2021
+MG 550; 2011; 2013
+MG 6; 2011; 2013
+Mini Cooper; 2009; 2026
+Mini Cooper Cabrio; 2009; 2026
+Mini Cooper Clubman; 2009; 2026
+Mini Cooper Countryman; 2011; 2026
+Mini Cooper Paceman; 2013; 2016
+Mitsubishi 3000GT; 1991; 1999
+Mitsubishi Airtrek; 2003; 2008
+Mitsubishi ASX; 2010; 2022
+Mitsubishi Colt; 1991; 1995
+Mitsubishi Diamante; 1992; 1994
+Mitsubishi Eclipse; 1991; 2000
+Mitsubishi Eclipse Cross; 2018; 2026
+Mitsubishi Galant; 1992; 2003
+Mitsubishi Grandis; 2005; 2008
+Mitsubishi L200; 1992; 2026
+Mitsubishi Lancer; 1993; 2018
+Mitsubishi Lancer Evolution; 1993; 2015
+Mitsubishi Outlander; 2004; 2026
+Mitsubishi Pajero; 1992; 2021
+Mitsubishi Pajero Dakar; 2009; 2016
+Mitsubishi Pajero Full; 1992; 2021
+Mitsubishi Pajero iO; 1999; 2002
+Mitsubishi Pajero Sport; 1999; 2026
+Mitsubishi Pajero TR4; 2002; 2015
+Miura Saga; 1977; 1988
+Miura Targa; 1982; 1986
+Nissan 350Z; 2004; 2009
+Nissan 370Z; 2009; 2016
+Nissan Altima; 2013; 2014
+Nissan Frontier; 1993; 2026
+Nissan GT-R; 2016; 2026
+Nissan Kicks; 2016; 2026
+Nissan Leaf; 2019; 2026
+Nissan Livina; 2009; 2019
+Nissan March; 2011; 2020
+Nissan Maxima; 1993; 2002
+Nissan Murano; 2005; 2015
+Nissan Pathfinder; 1993; 2010
+Nissan Primera; 1998; 2000
+Nissan Quest; 1994; 1998
+Nissan Sentra; 1993; 2026
+Nissan Tiida; 2007; 2013
+Nissan Tiida Sedan; 2010; 2013
+Nissan Versa; 2011; 2026
+Nissan X-Trail; 2005; 2019
+Nissan Xterra; 2003; 2007
+Opel Calibra; 1994; 1996
+Opel Corsa; 1994; 2002
+Opel Vectra; 1993; 2011
+Peugeot 106; 1992; 2001
+Peugeot 2008; 2015; 2026
+Peugeot 205; 1992; 1998
+Peugeot 206; 1999; 2010
+Peugeot 206 SW; 2005; 2008
+Peugeot 207; 2008; 2014
+Peugeot 207 Passion; 2008; 2014
+Peugeot 207 SW; 2008; 2013
+Peugeot 208; 2013; 2026
+Peugeot 3008; 2010; 2026
+Peugeot 306; 1994; 2002
+Peugeot 307; 2002; 2012
+Peugeot 307 Sedan; 2006; 2011
+Peugeot 307 SW; 2003; 2008
+Peugeot 308; 2012; 2019
+Peugeot 405; 1992; 1999
+Peugeot 406; 1997; 2004
+Peugeot 407; 2005; 2010
+Peugeot 408; 2011; 2019
+Peugeot 5008; 2018; 2026
+Peugeot 504; 1970; 1999
+Peugeot 505; 1982; 1992
+Peugeot 508; 2012; 2019
+Peugeot 605; 1992; 1999
+Peugeot 607; 2000; 2005
+Peugeot 807; 2004; 2005
+Peugeot Boxer; 1999; 2026
+Peugeot Expert; 2017; 2026
+Peugeot Hoggar; 2010; 2014
+Peugeot Partner; 1999; 2022
+Peugeot RCZ; 2011; 2015
+Plymouth Barracuda; 1964; 1974
+Pontiac GTO; 1964; 1974
+Pontiac Trans Am; 1994; 2002
+Porsche 718 Boxster; 2017; 2026
+Porsche 718 Cayman; 2017; 2026
+Porsche 911; 1992; 2026
+Porsche 911 Carrera; 1992; 2026
+Porsche 911 GT3; 2004; 2026
+Porsche 911 Turbo; 1994; 2026
+Porsche Boxster; 1997; 2016
+Porsche Cayenne; 2003; 2026
+Porsche Cayman; 2007; 2016
+Porsche Macan; 2014; 2026
+Porsche Panamera; 2010; 2026
+Porsche Taycan; 2020; 2026
+Puma GT; 1966; 1980
+Puma GTE; 1970; 1980
+Puma GTB; 1974; 1987
+Puma AMV; 1988; 1995
+RAM 1500; 2021; 2026
+RAM 2500; 2012; 2026
+RAM 3500; 2022; 2026
+RAM Classic; 2022; 2026
+RAM Rampage; 2023; 2026
+Renault 19; 1992; 1998
+Renault 21; 1992; 1994
+Renault Captur; 2017; 2023
+Renault Clio; 1996; 2016
+Renault Duster; 2011; 2026
+Renault Duster Oroch; 2015; 2022
+Renault Fluence; 2010; 2018
+Renault Fuego; 1984; 1986
+Renault Gordini; 1962; 1968
+Renault Kangoo; 2000; 2018
+Renault Kardian; 2024; 2026
+Renault Kwid; 2017; 2026
+Renault Laguna; 1995; 2005
+Renault Logan; 2007; 2023
+Renault Master; 2002; 2026
+Renault Megane; 1997; 2013
+Renault Megane Grand Tour; 2006; 2012
+Renault Oroch; 2022; 2026
+Renault Sandero; 2007; 2023
+Renault Sandero Stepway; 2008; 2023
+Renault Scénic; 1999; 2010
+Renault Symbol; 2009; 2013
+Renault Trafic; 1997; 2002
+Renault Twingo; 1994; 2002
+Renault Zoe; 2018; 2026
+Rolls-Royce Ghost; 2010; 2026
+Rolls-Royce Phantom; 2004; 2026
+Rover 214; 1994; 1999
+Rover 416; 1995; 1999
+Saab 900; 1993; 1998
+Saab 9000; 1992; 1998
+Saab 9-3; 1999; 2010
+Saab 9-5; 1999; 2010
+Saturn SL; 1997; 2000
+Seat Cordoba; 1995; 2002
+Seat Ibiza; 1995; 2002
+Seat Leon; 2000; 2003
+Seat Toledo; 1995; 2002
+Simca Chambord; 1959; 1966
+Simca Esplanada; 1966; 1969
+Smart Fortwo; 2009; 2019
+SsangYong Actyon; 2007; 2019
+SsangYong Actyon Sports; 2008; 2019
+SsangYong Chairman; 1998; 2002
+SsangYong Korando; 1995; 2020
+SsangYong Kyron; 2007; 2015
+SsangYong Musso; 1995; 2005
+SsangYong Rexton; 2004; 2019
+SsangYong Tivoli; 2018; 2020
+Subaru Forester; 1998; 2026
+Subaru Impreza; 1993; 2026
+Subaru Impreza WRX; 1993; 2021
+Subaru Impreza WRX STI; 2001; 2021
+Subaru Legacy; 1992; 2020
+Subaru Outback; 1997; 2026
+Subaru SVX; 1992; 1997
+Subaru Tribeca; 2006; 2012
+Subaru XV; 2012; 2026
+Suzuki Baleno; 1995; 1999
+Suzuki Grand Vitara; 1998; 2017
+Suzuki Ignis; 2001; 2003
+Suzuki Jimny; 1998; 2026
+Suzuki Jimny Sierra; 2019; 2026
+Suzuki S-Cross; 2015; 2023
+Suzuki Samurai; 1991; 1999
+Suzuki Sidekick; 1991; 1995
+Suzuki Swift; 1991; 2015
+Suzuki SX4; 2009; 2015
+Suzuki Vitara; 1991; 2023
+Suzuki Vitara (Novo); 2016; 2023
+TAC Stark; 2009; 2018
+Tesla Model 3; 2021; 2026
+Tesla Model S; 2021; 2026
+Tesla Model X; 2021; 2026
+Tesla Model Y; 2021; 2026
+Toyota Bandeirante; 1958; 2001
+Toyota Camry; 1992; 2020
+Toyota Corolla; 1992; 2026
+Toyota Corolla Cross; 2021; 2026
+Toyota Corolla Fielder; 2004; 2008
+Toyota Corona; 1993; 1999
+Toyota Etios; 2012; 2021
+Toyota Etios Sedan; 2012; 2021
+Toyota Hilux; 1992; 2026
+Toyota Hilux SW4; 1992; 2026
+Toyota Land Cruiser Prado; 2003; 2009
+Toyota Paseo; 1992; 1995
+Toyota Previa; 1992; 1997
+Toyota Prius; 2013; 2023
+Toyota RAV4; 1999; 2026
+Toyota Supra; 1993; 1995
+Toyota Tundra; 1999; 2002
+Toyota Yaris; 2018; 2026
+Toyota Yaris Sedan; 2018; 2026
+Troller Pantanal; 2006; 2008
+Troller T4; 1999; 2021
+TVR Cerbera; 1996; 2005
+Volkswagen 1600; 1968; 1980
+Volkswagen Amarok; 2010; 2026
+Volkswagen Apollo; 1990; 1992
+Volkswagen Bora; 2000; 2011
+Volkswagen Brasília; 1973; 1982
+Volkswagen Buggy; 1960; 2010
+Volkswagen Caddy; 1998; 2002
+Volkswagen Caravelle; 1998; 2000
+Volkswagen CC; 2009; 2016
+Volkswagen CrossFox; 2005; 2018
+Volkswagen Delivery Express; 2017; 2026
+Volkswagen EOS; 2008; 2012
+Volkswagen Fox; 2003; 2021
+Volkswagen Fusca; 1959; 1996
+Volkswagen Gol; 1980; 2023
+Volkswagen Golf; 1994; 2020
+Volkswagen Golf Variant; 1995; 2019
+Volkswagen Grand California; 2020; 2021
+Volkswagen Jetta; 2006; 2026
+Volkswagen Jetta Variant; 2008; 2013
+Volkswagen Karmann-Ghia; 1962; 1975
+Volkswagen Kombi; 1957; 2013
+Volkswagen Logus; 1993; 1996
+Volkswagen New Beetle; 1999; 2010
+Volkswagen Nivus; 2020; 2026
+Volkswagen Parati; 1982; 2012
+Volkswagen Passat; 1974; 2019
+Volkswagen Passat CC; 2009; 2016
+Volkswagen Passat Variant; 1974; 2019
+Volkswagen Pointer; 1994; 1996
+Volkswagen Polo; 2002; 2026
+Volkswagen Polo Classic; 1996; 2002
+Volkswagen Quantum; 1985; 2002
+Volkswagen Santana; 1984; 2006
+Volkswagen Saveiro; 1982; 2026
+Volkswagen SP1; 1972; 1976
+Volkswagen SP2; 1972; 1976
+Volkswagen SpaceCross; 2011; 2017
+Volkswagen SpaceFox; 2006; 2019
+Volkswagen T-Cross; 2019; 2026
+Volkswagen Taos; 2021; 2026
+Volkswagen The Beetle; 2013; 2017
+Volkswagen Tiguan; 2009; 2021
+Volkswagen Tiguan Allspace; 2018; 2026
+Volkswagen Touareg; 2004; 2019
+Volkswagen Up!; 2014; 2021
+Volkswagen Van; 1998; 2002
+Volkswagen Virtus; 2018; 2026
+Volkswagen Voyage; 1981; 2023
+Volkswagen Worker; 1981; 2019
+Volvo 440; 1992; 1995
+Volvo 460; 1992; 1996
+Volvo 850; 1993; 1997
+Volvo C30; 2007; 2012
+Volvo C40; 2022; 2026
+Volvo C70; 1998; 2012
+Volvo S40; 1997; 2010
+Volvo S60; 2001; 2021
+Volvo S70; 1997; 2000
+Volvo S80; 1999; 2012
+Volvo S90; 2017; 2018
+Volvo V40; 1997; 2019
+Volvo V50; 2005; 2010
+Volvo V60; 2011; 2021
+Volvo V70; 1997; 2007
+Volvo V90; 2017; 2018
+Volvo XC40; 2018; 2026
+Volvo XC60; 2009; 2026
+Volvo XC90; 2003; 2026
+Willys Aero; 1963; 1971
+Willys Interlagos; 1961; 1966
+Willys Itamaraty; 1966; 1971
+Willys Rural; 1958; 1977
