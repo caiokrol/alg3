@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include "Carro.h"
 
-#define MAX_ORDER 500
+#define MAX_ORDER 1000
 
 typedef struct No {
     bool folha;

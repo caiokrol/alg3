@@ -35,7 +35,7 @@ int main() {
     int total_carregado = carregar_registros(todos_os_carros, total_registros_no_arquivo);
 
     // Cenários de teste
-    int ordens_para_testar[] = {3, 8 ,10, 20, 40, 150, 300, 400};
+    int ordens_para_testar[] = {5, 20 ,50, 150, 300, 400, 800};
     int num_ordens = sizeof(ordens_para_testar) / sizeof(int);
 
     int tamanhos_para_testar[] = {100, 1000, 10000, 100000, 1000000, 10000000, 20000000};
@@ -100,7 +100,7 @@ int main() {
             printf("  \t[Espaço de Memória]\n");
             printf("    \t Tamanho do nó.........................: %zu bytes (%.2f KB)\n", 
                 tamanho_no, (double)tamanho_no / 1024);
-            printf("    \t Tamanho do bloco do disco............: %ld bytes (%.2f KB)\n", 
+            printf("    \t Tamanho do bloco do disco.............: %ld bytes (%.2f KB)\n", 
                 tamanho_bloco, (double)tamanho_bloco / 1024);
 
             // Tempo de Execução
