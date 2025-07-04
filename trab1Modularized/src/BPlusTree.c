@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include "../include/BPlusTree.h"
-#include "../include/BPlusTree.h"
+
 
 //---------------------------------- Protótipos funções internas----------------------------------
 /**
@@ -47,6 +47,7 @@ BPlusTree* criar_arvore_bplus(int ordem) {
     }
     arvore->raiz = NULL;
     arvore->ordem = ordem;
+    arvore->acessos_de_disco_simulados = 0; // Inicializa o novo contador
     return arvore;
 }
 
@@ -109,12 +110,15 @@ Carro* buscar(BPlusTree *arvore, int chave) {
     if (arvore == NULL || arvore->raiz == NULL) return NULL;
 
     No *no_atual = arvore->raiz;
+    arvore->acessos_de_disco_simulados++; // Incrementa para o acesso à raiz
+
     while (!no_atual->folha) {
         int i = 0;
         while (i < no_atual->num_chaves && chave >= no_atual->chaves[i]) {
             i++;
         }
         no_atual = (No*)no_atual->ponteiros[i];
+        arvore->acessos_de_disco_simulados++; // Incrementa para cada nó visitado no caminho
     }
 
     // Busca linear na folha
@@ -128,9 +132,27 @@ Carro* buscar(BPlusTree *arvore, int chave) {
 
 
 size_t tamanho_no_bplustree(BPlusTree* arvore, int ordem) {
-    size_t sub_chaves_vazias = sizeof(int) * ((MAX_ORDER + 1) - ordem);
-    size_t sub_ponteiros_vazios = sizeof(void *) * ((MAX_ORDER + 1) - ordem);
-    return (sizeof(No) * ordem) - sub_chaves_vazias - sub_ponteiros_vazios;
+    /* * Esta função calcula o tamanho "útil" de um nó.
+     * A abordagem é somar o tamanho dos campos base (que não são arrays)
+     * com o tamanho das partes dos arrays que são efetivamente usadas pela 'ordem' atual.
+     */
+
+    // 1. Calcula o tamanho dos campos da struct que não são os arrays de chaves/ponteiros.
+    size_t tamanho_base = sizeof(bool)      // campo 'folha'
+                        + sizeof(int)       // campo 'num_chaves'
+                        + sizeof(struct No*) // campo 'prox_folha'
+                        + sizeof(struct No*); // campo 'pai'
+
+    // 2. Calcula o tamanho da parte útil do array de chaves.
+    // Uma árvore de ordem 'm' tem, no máximo, 'm-1' chaves.
+    size_t tamanho_chaves_uteis = sizeof(int) * (ordem - 1);
+
+    // 3. Calcula o tamanho da parte útil do array de ponteiros.
+    // Uma árvore de ordem 'm' tem, no máximo, 'm' ponteiros.
+    size_t tamanho_ponteiros_uteis = sizeof(void*) * ordem;
+
+    // 4. O tamanho total útil é a soma das partes.
+    return tamanho_base + tamanho_chaves_uteis + tamanho_ponteiros_uteis;
 }
 
 //----------------------------------Funções internas (implementações)----------------------------------

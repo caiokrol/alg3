@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include "Carro.h"
 
-#define MAX_ORDER 41
+#define MAX_ORDER 500
 
 typedef struct No {
     bool folha;
@@ -18,6 +18,7 @@ typedef struct No {
 typedef struct {
     No *raiz;
     int ordem;
+    long long acessos_de_disco_simulados; //Contador para simular acessos ao disco.
 } BPlusTree;
 
 /**
