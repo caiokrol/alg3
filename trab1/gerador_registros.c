@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
+#include <stdbool.h>
 
-//#define NUM_REGISTROS 10000
 #define MAX_MODELOS 1000
 #define MAX_LINHA 256
 
@@ -39,7 +39,7 @@ int carregar_modelos(const char *nome_arquivo, Automovel modelos[]) {
     return count;
 }
 
-// Embaralha vetor de RENAVAMs com algoritmo de Fisher-Yates
+// Embaralha vetor de RENAVAMs com algoritmo de Fisher-Yates (Baseado em: https://github.com/JDSherbert/Fisher-Yates-Shuffle/blob/main/C/Shuffle.c)
 void embaralhar(unsigned long long *array, int tamanho) {
     for (int i = tamanho - 1; i > 0; i--) {
         int j = rand() % (i + 1);
@@ -55,19 +55,25 @@ int main() {
     const char *cores[] = {"Preto", "Branco", "Prata", "Vermelho", "Azul", "Cinza", "Verde"};
     int num_cores = sizeof(cores) / sizeof(cores[0]);
 
-        // --- ALTERAÇÃO PRINCIPAL AQUI ---
+
     int num_registros_desejados;
-    printf("Digite o número de registros desejados: (Max 20.000.000)\n");
-    // Valida se a entrada é um número inteiro positivo
-    if (scanf("%d", &num_registros_desejados) != 1 || num_registros_desejados <= 0 || num_registros_desejados > 20000000) {
-        fprintf(stderr, "Erro: Entrada inválida. Por favor, insira um número válido.\n");
-        return 1;
-    }
-    // --- FIM DA ALTERAÇÃO ---
+    bool flag_num_regs_val = false;
+    do {
+        printf("Digite o número de registros desejados: (Max 20.000.000)\n");
+        if (scanf("%d", &num_registros_desejados) != 1 || num_registros_desejados <= 0 || num_registros_desejados > 20000000) {
+            fprintf(stderr, "Erro: Entrada inválida. Por favor, insira um número válido.\n");
+            while (getchar() != '\n'); // descarta o que sobrou no buffer
+            flag_num_regs_val = false;
+        } else {
+            flag_num_regs_val = true;
+        }
+    } while (!flag_num_regs_val);
+
+
 
     srand(time(NULL));
 
-    int num_modelos = carregar_modelos("modelos_anos.txt", automoveis);
+    int num_modelos = carregar_modelos("./docs/modelos_anos.txt", automoveis);
     if (num_modelos <= 0) {
         fprintf(stderr, "Erro: nenhum modelo carregado.\n");
         return 1;
@@ -88,7 +94,7 @@ int main() {
     // Embaralha os RENAVAMs para parecerem aleatórios
     embaralhar(renavams, num_registros_desejados);
 
-    arquivo_saida = fopen("registros.txt", "w");
+    arquivo_saida = fopen("./docs/registros.txt", "w");
     if (!arquivo_saida) {
         perror("Erro ao abrir arquivo de saída");
         free(renavams);

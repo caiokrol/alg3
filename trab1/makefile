@@ -1,27 +1,45 @@
-# Executáveis
-GERADOR = gerador
-ARVORE  = teste_arvore
+# Diretórios
+INCLUDE_DIR = include
+SRC_DIR = src
+BUILD_DIR = build
+BIN_DIR = bin
+DOCS_DIR = docs
 
-# Fontes
+# Executáveis
+GERADOR = $(BIN_DIR)/gerador
+ARVORE  = $(BIN_DIR)/teste_arvore
+
+# Arquivos-fonte
 SRC_GERADOR = gerador_registros.c
-SRC_ARVORE  = arvore_b_mais.c
+SRC_ARVORE = $(SRC_DIR)/main.c $(SRC_DIR)/BPlusTree.c $(SRC_DIR)/Util.c
+
+# Arquivos-objeto (gerados a partir dos .c)
+OBJ_ARVORE = $(patsubst $(SRC_DIR)/%.c,$(BUILD_DIR)/%.o,$(SRC_ARVORE))
 
 # Compilador e flags
 CC = gcc
-CFLAGS = -Wall -O2
+CFLAGS = -Wall -O2 -I$(INCLUDE_DIR)
 
-# Compila tudo
+# Regra padrão
 all: $(GERADOR) $(ARVORE)
 
-# Compila o gerador
-$(GERADOR): $(SRC_GERADOR)
-	$(CC) $(CFLAGS) -o $(GERADOR) $(SRC_GERADOR)
+# Criação de diretórios se não existirem
+$(BUILD_DIR) $(BIN_DIR):
+	mkdir -p $@
 
-# Compila a árvore
-$(ARVORE): $(SRC_ARVORE)
-	$(CC) $(CFLAGS) -o $(ARVORE) $(SRC_ARVORE)
+# Gerador direto (não modularizado)
+$(GERADOR): $(SRC_GERADOR) | $(BIN_DIR)
+	$(CC) $(CFLAGS) -o $@ $<
 
-# Executa o gerador e depois testa a árvore
+# Compila os .o para a árvore
+$(BUILD_DIR)/%.o: $(SRC_DIR)/%.c | $(BUILD_DIR)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Linka os objetos para formar o binário da árvore
+$(ARVORE): $(OBJ_ARVORE) | $(BIN_DIR)
+	$(CC) $(CFLAGS) -o $@ $^
+
+# Executa o gerador e o teste da árvore
 run: $(GERADOR) $(ARVORE)
 	@echo "[1/2] Gerando registros..."
 	./$(GERADOR)
@@ -30,4 +48,5 @@ run: $(GERADOR) $(ARVORE)
 
 # Limpa tudo
 clean:
-	rm -f $(GERADOR) $(ARVORE) registros.txt
+	rm -rf $(BUILD_DIR) $(BIN_DIR) $(DOCS_DIR)/registros.txt
+
