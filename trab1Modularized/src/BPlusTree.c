@@ -132,26 +132,18 @@ Carro* buscar(BPlusTree *arvore, int chave) {
 
 
 size_t tamanho_no_bplustree(BPlusTree* arvore, int ordem) {
-    /* * Esta função calcula o tamanho "útil" de um nó.
-     * A abordagem é somar o tamanho dos campos base (que não são arrays)
-     * com o tamanho das partes dos arrays que são efetivamente usadas pela 'ordem' atual.
-     */
 
-    // 1. Calcula o tamanho dos campos da struct que não são os arrays de chaves/ponteiros.
-    size_t tamanho_base = sizeof(bool)      // campo 'folha'
-                        + sizeof(int)       // campo 'num_chaves'
-                        + sizeof(struct No*) // campo 'prox_folha'
-                        + sizeof(struct No*); // campo 'pai'
+    //Calcula o tamanho dos campos da struct que não são os arrays de chaves/ponteiros.
+    //                      'folha'      'num_chaves'        'prox_folha'            'pai'
+    size_t tamanho_base = sizeof(bool) + sizeof(int)   +     sizeof(struct No*) +    sizeof(struct No*);
 
-    // 2. Calcula o tamanho da parte útil do array de chaves.
-    // Uma árvore de ordem 'm' tem, no máximo, 'm-1' chaves.
+    //Calcula o tamanho da parte útil do array de chaves.
     size_t tamanho_chaves_uteis = sizeof(int) * (ordem - 1);
 
-    // 3. Calcula o tamanho da parte útil do array de ponteiros.
-    // Uma árvore de ordem 'm' tem, no máximo, 'm' ponteiros.
+    //Calcula o tamanho da parte útil do array de ponteiros.
     size_t tamanho_ponteiros_uteis = sizeof(void*) * ordem;
 
-    // 4. O tamanho total útil é a soma das partes.
+    //Tamanho total útil é a soma das partes.
     return tamanho_base + tamanho_chaves_uteis + tamanho_ponteiros_uteis;
 }
 
