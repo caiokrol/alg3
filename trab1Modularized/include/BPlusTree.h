@@ -49,4 +49,11 @@ void inserir(BPlusTree *arvore, int chave, Carro *carro);
  */
 Carro* buscar(BPlusTree *arvore, int chave);
 
+/**
+ * @brief Calcula o tamanho em bytes de um nó da árvore B+ para uma dada ordem.
+ * @param arvore Ponteiro para a árvore B+ (pode ser usado para acessar configurações específicas da árvore, se necessário).
+ * @param ordem A ordem da árvore B+ (quantidade máxima de chaves por nó).
+ * @return O tamanho estimado, em bytes, de um único nó da árvore B+.
+ */
+size_t tamanho_no_bplustree(BPlusTree* arvore, int ordem);
 #endif

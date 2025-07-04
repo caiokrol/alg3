@@ -127,7 +127,11 @@ Carro* buscar(BPlusTree *arvore, int chave) {
 }
 
 
-
+size_t tamanho_no_bplustree(BPlusTree* arvore, int ordem) {
+    size_t sub_chaves_vazias = sizeof(int) * ((MAX_ORDER + 1) - ordem);
+    size_t sub_ponteiros_vazios = sizeof(void *) * ((MAX_ORDER + 1) - ordem);
+    return (sizeof(No) * ordem) - sub_chaves_vazias - sub_ponteiros_vazios;
+}
 
 //----------------------------------Funções internas (implementações)----------------------------------
 No* criar_no() {

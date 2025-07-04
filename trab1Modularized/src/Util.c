@@ -4,6 +4,7 @@
 #include "../include/Util.h"
 #include "../include/Carro.h"
 #include <sys/resource.h>
+#include <sys/statvfs.h>
 
 // Array global usado para armazenar chaves aleatórias de busca
 int chaves_para_busca[NUM_BUSCAS_A_REALIZAR];
@@ -53,4 +54,13 @@ void preparar_chaves_busca(const Carro *todos_os_carros, int num_registros) {
         int random_index = rand() % num_registros;
         chaves_para_busca[i] = todos_os_carros[random_index].renavam;
     }
+}
+
+long get_block_size(const char *path) {
+    struct statvfs buf;
+    if (statvfs(path, &buf) != 0) {
+        perror("statvfs");
+        return -1;
+    }
+    return buf.f_bsize; // tamanho do bloco em bytes
 }

@@ -35,7 +35,7 @@ int main() {
     int total_carregado = carregar_registros(todos_os_carros, total_registros_no_arquivo);
 
     // Cenários de teste
-    int ordens_para_testar[] = {3, 5, 10, 15, 20, 40};
+    int ordens_para_testar[] = {3, 8 ,10, 20, 40};
     int num_ordens = sizeof(ordens_para_testar) / sizeof(int);
 
     int tamanhos_para_testar[] = {100, 1000, 10000, 100000, 1000000, 10000000, 20000000};
@@ -51,7 +51,7 @@ int main() {
             continue;
         }
 
-        printf("\n--- Testando com %d Registros ---\n", tamanho_atual);
+        printf("\n================= Testando com %d Registros ================= \n", tamanho_atual);
         preparar_chaves_busca(todos_os_carros, tamanho_atual);
 
         for (int j = 0; j < num_ordens; j++) {
@@ -80,10 +80,13 @@ int main() {
             double tempo_total_cpu = ((double)(fim - inicio)) / CLOCKS_PER_SEC;
             double tempo_medio_ms = (tempo_total_cpu * 1000.0) / (double)NUM_BUSCAS_A_REALIZAR;
             double tempo_insercao_ms = ((double)(fim_insercao - inicio_insercao)) * 1000.0 / CLOCKS_PER_SEC;
-            
+            size_t tamanho_no = tamanho_no_bplustree(arvore, ordem_atual);
+            long tamanho_bloco = get_block_size("docs/registros.txt");
+
             printf("Ordem %2d:\n", ordem_atual);
+            printf("\t Tamanho do nó: %zu bytes (%.2f KB)\n", tamanho_no, (double)tamanho_no / 1024);
+            printf("\t Tamanho do bloco do disco: %ld bytes (%.2f KB)\n", tamanho_bloco, (double)tamanho_bloco / 1024);
             printf("\t Tempo de inserção: %.6f ms\n", tempo_insercao_ms);
-            printf("\t Uso estimado de memória na árvore: ~%ld KB\n", sizeof(arvore));
             printf("\t Tempo médio por busca: %.6f ms (%d/%d encontradas)\n",
                 tempo_medio_ms, buscas_encontradas, NUM_BUSCAS_A_REALIZAR);
             printf("\t Tempo total para %d buscas: %.6f ms (%d encontradas)\n",

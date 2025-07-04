@@ -29,5 +29,11 @@ int carregar_registros(Carro *carros_out, long num_a_carregar);
  */
 void preparar_chaves_busca(const Carro *todos_os_carros, int num_registros);
 
+/**
+ * @brief Obtém o tamanho do bloco de disco do sistema de arquivos onde o caminho especificado está localizado.
+ * @param path Caminho para o diretório ou arquivo cujo sistema de arquivos será consultado.
+ * @return O tamanho do bloco em bytes, ou -1 em caso de erro.
+ */
+long get_block_size(const char *path);
 
 #endif
